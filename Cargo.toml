@@ -1,0 +1,18 @@
+[package]
+name = "mpeg-ps-rs"
+version = "0.1.0"
+edition = "2021"
+description = "MPEG-2 PS muxer and demuxer Rust implementation"
+license = "Apache-2.0"
+repository = "https://github.com/general252/mpeg-ps-rs.git"
+keywords = ["mpeg-ps", "ps"]
+
+[lib]
+name = "mpeg_ps"
+path = "src/lib.rs"
+
+
+[dependencies]
+pretty-hex = "0.4.2"
+
+[dev-dependencies]
